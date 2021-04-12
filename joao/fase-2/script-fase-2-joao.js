@@ -21,7 +21,7 @@ function decide(decisao) {
     document.write(
       `
       <div class = 'fase1'>
-      <h1>Caraca véi! quem é Capitão América perto de você!!! Agora é hora de você chamar a responsabilidade para si!</h1>
+      <h1>Caraca véi!Quem é Capitão América perto de você!!!Agora é hora de você chamar a responsa para si!</h1>
       <div class='decisao2'>
         <a class="decidir botao" href="../fase-3/fase-3.html">Da um clique aqui para provar o teu valor!</a>
       </div>

@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://i.pinimg.com/originals/1c/ec/81/1cec81c15d6db4f6e89c2bba1e6fc5d9.jpg");
+  font-family: "Dela Gothic One", cursive;
+  color: yellow;
+  font-size: 20px;
+}
+
+.fase1 {
+  width: 800px;
+  height: 400px;
+  display: flex;
+  margin-top: 100px;
+  flex-direction: column;
+  justify-content: center;
+  padding: 40px;
+}
+
+.super {
+  width: 200px;
+  height: 200px;
+  align-self: center;
+  border-radius: 20%;
+  margin-top: 20px;
+}
+
+.joao {
+  border: 2px solid yellow;
+  border: 10%;
+  width: 380px;
+}
+
+.descricao {
+  width: 50%;
+}
+
+.descricao p {
+  line-height: 1.2;
+  margin-bottom: 15px;
+}
+
+.decidir {
+  list-style: none;
+  text-decoration: none;
+  padding: 10px;
+  transition: width 0.5s;
+  color: yellow;
+}
+
+.decidir:hover {
+  color: white;
+}
+
+.decisao {
+  width: 400px;
+  height: 45px;
+  margin-top: 5px;
+  border: 2px solid yellow;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1.2;
+  transition: width 0.5s height 0.5s;
+}
+
+.decisao:hover {
+  width: 405px;
+  height: 45px;
+  border: 2px solid white;
+}
+
+.botao {
+  margin-top: 20px;
+}
+
+.capitao {
+  width: 500px;
+  height: 400px;
+  border-radius: 10%;
+}
+
+.pele {
+  width: 400px;
+  border-radius: 5%;
+}
+.jim {
+  width: 400px;
+}
+
+.decisao2 {
+  width: 400px;
+  height: 70px;
+  border: 2px solid yellow;
+  align-self: center;
+  align-items: center;
+  border-radius: 5%;
+  justify-content: center;
+  transition: width 0.5s;
+  margin-top: 20px;
+}
+
+.decisao2:hover {
+  width: 420px;
+  border: 2px solid white;
+}
+
+.gameOver {
+  width: 600px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.gameOverImg {
+  width: 400px;
+  height: 400px;
+}

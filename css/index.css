@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  text-align: center;
+  background-image: url("https://i.pinimg.com/originals/1c/ec/81/1cec81c15d6db4f6e89c2bba1e6fc5d9.jpg");
+  font-family: "Dela Gothic One", cursive;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+header {
+  margin-top: 20px;
+  display: flex;
+
+  justify-content: center;
+}
+
+.personagem {
+  display: flex;
+  height: 416px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 10px;
+  border: 3px solid yellow;
+  border-radius: 20%;
+}
+
+img {
+  border-radius: 20%;
+}
+.escolha {
+  color: yellow;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.nomes {
+  margin-top: 5px;
+  font-family: "Dela Gothic One", cursive;
+  color: yellow;
+  text-decoration: none;
+  transition: width 0.5s height 0.5s;
+}
+
+.nomes:hover {
+  color: white;
+  font-size: 18px;
+}

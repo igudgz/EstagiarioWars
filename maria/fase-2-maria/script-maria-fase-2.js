@@ -1,5 +1,5 @@
 let decisao = prompt(
-  `1- Cai na porrada e mete uma surra nesses alienìgenas lixos ! \n  2 - Vai voltar pros papéis e passa a ter certeza que é covarde !`
+  `1-Cai na porrada e mete uma surra nesses alienìgenas lixos! \n  2-Vai voltar pros papéis e passa a ter certeza que é covarde!`
 );
 ////Validação de escolha
 let tentativas = 0;
@@ -7,7 +7,7 @@ let maxTentativas = 2;
 while (tentativas < maxTentativas) {
   if (decisao != "1" && decisao != "2") {
     decisao = prompt(
-      `1- Cai na porrada e mete uma surra nesses alienìgenas lixos ! \n  2 - Vai voltar pros papéis e passa a ter certeza que é covarde !`
+      `1-Cai na porrada e mete uma surra nesses alienìgenas lixos! \n  2-Vai voltar pros papéis e passa a ter certeza que é covarde!`
     );
   }
   tentativas++;
@@ -34,7 +34,7 @@ function decide(decisao) {
       `<div class= "fase1">
       <h1>Eu já sabia que a sua mãe não tinha criado uma guerreira.</h1>
       <div class='decisao2'>
-        <a class="decidir botao" href="../../index.html">Clique aqui para voltar para o início</a>
+        <a class="decidir botao" href="../../index.html">Clique aqui para voltar para o início.</a>
       </div>
       <img class= "super" src="../images/gatinho-fase-2.jpg" alt="gameover">
       `
@@ -44,9 +44,9 @@ function decide(decisao) {
 function gameOver() {
   document.write(`
   <div class='gameOver'>
-    <p>Ta querendo bugar o meu game bro ?</p>
+    <p>Ta querendo bugar o meu game bro?</p>
     <img class='gameOverImg' src="../../images/game-over-gif.gif" alt="Game Over">
-    <a class="decidir botao" href="../../index.html">Clique aqui para voltar para a tela inicial</a>
+    <a class="decidir botao" href="../../index.html">Clique aqui para voltar para a tela inicial.</a>
   </div>  
   `);
 }

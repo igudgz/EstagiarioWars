@@ -1,5 +1,5 @@
 let decisao = prompt(
-  `1- Esse dai vai da nem como prato principal ! \n 2- Ai meu Deus, eu esqueci de tirar a roupa do varal, ja volto!  `
+  `1-Esse dai vai da nem como prato principal! \n 2-Ai meu Deus, eu esqueci de tirar a roupa do varal, ja volto!  `
 );
 ////Validação de escolha
 let tentativas = 0;
@@ -7,7 +7,7 @@ let maxTentativas = 2;
 while (tentativas < maxTentativas) {
   if (decisao != "1" && decisao != "2") {
     decisao = prompt(
-      `1- Esse dai vai da nem como prato principal ! \n 2- Ai meu Deus, eu esqueci de tirar a roupa do varal, ja volto!  `
+      `1-Esse dai vai da nem como prato principal! \n 2-Ai meu Deus, eu esqueci de tirar a roupa do varal, ja volto!  `
     );
   }
   tentativas++;
@@ -23,7 +23,7 @@ function decide(decisao) {
       <div class = 'fase1'>
       <h1>GG WP Alienígenas imundos!Todos fracos perante a chefe Ana! Agora você pode focar no seu estágio e preparar um rango para todos nós!</h1>
       <div class='decisao2'>
-        <a class="decidir botao" href="../../index.html">Clique aqui para voltar para o início </a>
+        <a class="decidir botao" href="../../index.html">Clique aqui para voltar para o início.</a>
       </div>
       <img class= "super " src="../images/gif-fase-3-feliz.gif" alt="super-heroi">
       <div>
@@ -34,7 +34,7 @@ function decide(decisao) {
       `<div class= "fase1">
       <h1>Com tanto esforço você toma essa decisão? Eu e o Vegeta estamos decepcionados com você.</h1>
       <div class='decisao2'>
-        <a class="decidir botao" href="../../index.html">Clique aqui para voltar para o <br>início</a>
+        <a class="decidir botao" href="../../index.html">Clique aqui para voltar para o <br>início.</a>
       </div>
       <img class= "super jim" src="../images/gif-fase-3.gif" alt="gameover">
       `
@@ -44,9 +44,9 @@ function decide(decisao) {
 function gameOver() {
   document.write(`
   <div class='gameOver'>
-    <p>Ta querendo bugar o meu game bro ?</p>
+    <p>Ta querendo bugar o meu game bro?</p>
     <img class='gameOverImg' src="../../images/game-over-gif.gif" alt="Game Over">
-    <a class="decidir botao" href="../../index.html">Clique aqui para voltar para a tela inicial</a>
+    <a class="decidir botao" href="../../index.html">Clique aqui para voltar para a tela inicial.</a>
   </div>  
   `);
 }

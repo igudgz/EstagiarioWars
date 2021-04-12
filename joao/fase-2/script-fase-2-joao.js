@@ -32,9 +32,9 @@ function decide(decisao) {
   } else if (decisao === "2") {
     document.write(
       `<div class= "fase1">
-      <h1>Eu já sabia que você era um covarde mesmo !</h1>
+      <h1>Eu já sabia que você era um covarde mesmo!</h1>
       <div class='decisao2'>
-        <a class="decidir botao" href="../../index.html">Clique aqui para voltar para o <br>início</a>
+        <a class="decidir botao" href="../../index.html">Clique aqui para voltar para o <br>início.</a>
       </div>
       <img class= "super" src="../images/raiva.png" alt="gameover">
       `
@@ -45,9 +45,9 @@ function decide(decisao) {
 function gameOver() {
   document.write(`
   <div class='gameOver'>
-    <p>Ta querendo bugar o meu game bro ?</p>
+    <p>Ta querendo bugar o meu game bro?</p>
     <img class='gameOverImg' src="../../images/game-over-gif.gif" alt="Game Over">
-    <a class="decidir botao" href="../../index.html">Clique aqui para voltar para a tela inicial</a>
+    <a class="decidir botao" href="../../index.html">Clique aqui para voltar para a tela inicial.</a>
   </div>  
   `);
 }

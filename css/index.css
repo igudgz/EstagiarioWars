@@ -20,7 +20,6 @@ body {
 header {
   margin-top: 20px;
   display: flex;
-
   justify-content: center;
 }
 
@@ -56,4 +55,47 @@ img {
 .nomes:hover {
   color: white;
   font-size: 18px;
+}
+/* Responsivo */
+
+@media (min-width: 701px) and (max-width: 1050px) {
+  .container {
+    display: flex;
+    margin-bottom: 10px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .logo {
+    width: 100%;
+  }
+}
+
+@media (max-width: 700px) {
+  .container {
+    display: flex;
+    margin-bottom: 10px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .logo {
+    width: 100%;
+  }
+
+  .personagem {
+    margin-right: 0;
+    width: 85%;
+    height: 50%;
+  }
+
+  .personagens {
+    height: 93%;
+  }
+
+  .escolha {
+    margin-top: 15px;
+  }
 }

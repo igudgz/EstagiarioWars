@@ -104,8 +104,8 @@ body {
   border: 2px solid white;
 }
 .gameOver {
-  width: 600px;
-  height: 600px;
+  width: 50%;
+  height: 50%;
   display: flex;
   flex-direction: column;
   align-items: center;

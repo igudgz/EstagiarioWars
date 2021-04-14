@@ -1,5 +1,5 @@
 let decisao = prompt(
-  `1-Esse dai vai da nem como prato principal! \n 2-Ai meu Deus, eu esqueci de tirar a roupa do varal, ja volto!  `
+  `1-Ai meu Deus, eu esqueci de tirar a roupa do varal, ja volto! \n 2-Esse dai vai da nem como prato principal! 1`
 );
 ////Validação de escolha
 let tentativas = 0;
@@ -7,7 +7,7 @@ let maxTentativas = 2;
 while (tentativas < maxTentativas) {
   if (decisao != "1" && decisao != "2") {
     decisao = prompt(
-      `1-Esse dai vai da nem como prato principal! \n 2-Ai meu Deus, eu esqueci de tirar a roupa do varal, ja volto!  `
+      `1-Ai meu Deus, eu esqueci de tirar a roupa do varal, ja volto! \n 2-Esse dai vai da nem como prato principal! `
     );
   }
   tentativas++;
@@ -17,7 +17,7 @@ if (decisao != "1" && decisao != "2") gameOver();
 //funções !
 decide(decisao);
 function decide(decisao) {
-  if (decisao === "1") {
+  if (decisao === "2") {
     document.write(
       `
       <div class = 'fase1'>
@@ -29,7 +29,7 @@ function decide(decisao) {
       <div>
       `
     );
-  } else if (decisao === "2") {
+  } else if (decisao === "1") {
     document.write(
       `<div class= "fase1">
       <h1>Com tanto esforço você toma essa decisão? Eu e o Vegeta estamos decepcionados com você.</h1>

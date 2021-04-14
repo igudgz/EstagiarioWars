@@ -35,6 +35,10 @@ header {
   border-radius: 20%;
 }
 
+.personagem:hover {
+  border: 3px solid white;
+}
+
 img {
   border-radius: 20%;
 }
@@ -50,6 +54,8 @@ img {
   color: yellow;
   text-decoration: none;
   transition: width 0.5s height 0.5s;
+  display: flex;
+  flex-direction: column;
 }
 
 .nomes:hover {

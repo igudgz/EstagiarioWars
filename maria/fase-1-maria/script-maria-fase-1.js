@@ -1,5 +1,5 @@
 let decisao = prompt(
-  `1-Está na hora da estagiária provar o seu lugar! \n 2-Documentos do funcionários da empresa é mais importante!   `
+  `1-Documentos do funcionários da empresa é mais importante! \n 2-Está na hora da estagiária provar o seu lugar! `
 );
 //Validação de escolha
 let tentativas = 0;
@@ -7,7 +7,7 @@ let maxTentativas = 2;
 while (tentativas < maxTentativas) {
   if (decisao != "1" && decisao != "2") {
     decisao = prompt(
-      `1-Está na hora da estagiária provar o seu lugar! \n 2-Documentos do funcionários da empresa é mais importante!   `
+      `1-Documentos do funcionários da empresa é mais importante! \n 2-Está na hora da estagiária provar o seu lugar! `
     );
   }
   tentativas++;
@@ -17,7 +17,7 @@ if (decisao != "1" && decisao != "2") gameOver();
 //funções !
 decide(decisao);
 function decide(decisao) {
-  if (decisao === "1") {
+  if (decisao === "2") {
     document.write(
       `
       <div class = 'fase1'>
@@ -29,7 +29,7 @@ function decide(decisao) {
       <div>
       `
     );
-  } else if (decisao === "2") {
+  } else if (decisao === "1") {
     document.write(
       `<div class= "fase1">
       <h1>Você não honra o nosso GIRL POWER!</h1>
